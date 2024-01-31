@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(220, 51, 51);
+}
+p{
+    color: red;
+}
+#subtitulo {
+    background-color: yellow;
+}
+
+.verde{
+    background-color: green;
+    color: white;
+}
