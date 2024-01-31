@@ -33,7 +33,7 @@ function tocarOuPausar( ){
  }
 
     function capituloAnterior(){
-        if(capituloAtual >= 1 ){
+        if(capituloAtual === 1 ){
             capituloAtual = quantidadeCapitulos;
         }else{
     capituloAtual -= 1;
@@ -41,7 +41,7 @@ function tocarOuPausar( ){
     audio.src ='src/books/dom-casmurro'+ capituloAtual + '.mp3';
     nomeCapitulo.innerText="Capítulo "+capituloAtual;
     tocarFaixa();
-    taTocando = true;
+    audio.play();
 }
     function proximoCapitulo(){
         if(capituloAtual < quantidadeCapitulos){
