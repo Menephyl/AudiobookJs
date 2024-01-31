@@ -36,7 +36,7 @@ function tocarOuPausar( ){
         if(capituloAtual === 1 ){
             capituloAtual = quantidadeCapitulos;
         }else{
-    capituloAtual -= 1;
+    capituloAtual --;
     }
     audio.src ='src/books/dom-casmurro'+ capituloAtual + '.mp3';
     nomeCapitulo.innerText="Capítulo "+capituloAtual;
