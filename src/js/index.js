@@ -40,8 +40,9 @@ function tocarOuPausar( ){
     }
     audio.src ='src/books/dom-casmurro'+ capituloAtual + '.mp3';
     nomeCapitulo.innerText="Capítulo "+capituloAtual;
+    taTocando = 1
     tocarFaixa();
-    audio.play();
+   
 }
     function proximoCapitulo(){
         if(capituloAtual < quantidadeCapitulos){
@@ -54,7 +55,7 @@ function tocarOuPausar( ){
         audio.src = "src/books/dom-casmurro/" + capituloAtual + ".mp3";
         nomeCapitulo.innerText = "Capítulo " + capituloAtual;
         tocarFaixa();
-        taTocando = true;
+        taTocando = 1;
         
  }
     
