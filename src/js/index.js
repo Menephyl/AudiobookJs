@@ -33,7 +33,7 @@ function tocarOuPausar( ){
  }
 
     function capituloAnterior(){
-        if(capituloAtual <=quantidadeCapitulos ){
+        if(capituloAtual === 1 ){
             capituloAtual = quantidadeCapitulos;
         }else{
     capituloAtual -= 1;
